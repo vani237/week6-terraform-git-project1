@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 resource "aws_iam_group" "developers" {
-  name = "developer"
+  name = "developer2"
 
 }
 resource "aws_iam_user" "lb" {
